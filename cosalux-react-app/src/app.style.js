@@ -8,13 +8,20 @@ export const GlobalStyle = createGlobalStyle`
   }
   h2 {
     font-size: 54px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 20px 0;
   }
   h3 {
-    font-size: 27px
+    font-size: 27px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 15px 0;
   }
 
   p {
     font-size: 14px;
+    margin: 5px 0;
   }
 `
 
