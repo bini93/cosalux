@@ -36,6 +36,7 @@ export const theme = {
     primary: '#000000',
     secondary: '#ffffff',
     tertiary: '#393939',
+    quaternary: '#F8F8F8',
 
     titleColor: '#393939',
 

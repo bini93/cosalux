@@ -57,6 +57,7 @@ const StyledTextBlock = styled.p`
 const StyledStepWrapper = styled.div`
   display: flex;
   column-gap: 100px;
+  margin-bottom: 40px;
 `
 
 const StyledStep = styled.div`
@@ -69,6 +70,7 @@ const StyledStepNumber = styled.div`
 `
 const StyledStepInfoWrapper = styled.div`
   display: flex;
+  border-bottom: 1px solid ${props => props.theme.colors.quaternary};
 `
 
 const StyledStepInfo = styled.div`
