@@ -1,6 +1,7 @@
 import ContentWrapper from "../../components/ContentWrapper";
 import styled from "styled-components";
 
+
 const StyledFooter = styled.footer`
   display: flex;
   width: 100%;
@@ -25,13 +26,10 @@ const StyledContact = styled.div`
   column-gap: 40px;
 `
 
-const StyledContactEmail = styled.span`
-`
-
-const StyledContactPhone = styled.span`
-`
-
-const StyledContactFax = styled.span`
+const StyledContactInfo = styled.span`
+  span {
+    font-weight: 700;
+  }
 `
 
 
@@ -45,17 +43,17 @@ const Footer = () => {
           </StyledCopyright>
           <StyledContact>
 
-            <StyledContactEmail>
-              <b>E</b> info@cosalux.com
-            </StyledContactEmail>
+            <StyledContactInfo>
+              <span>E</span> info@cosalux.com
+            </StyledContactInfo>
 
-            <StyledContactPhone>
-              <b>T</b> +49 (0)69 – 860 07 22 – 660
-            </StyledContactPhone>
+            <StyledContactInfo>
+              <span>T</span> +49 (0)69 – 860 07 22 – 660
+            </StyledContactInfo>
 
-            <StyledContactFax>
-              <b>F</b> +49 (0)69 – 860 07 22 – 610
-            </StyledContactFax>
+            <StyledContactInfo>
+              <span>F</span> +49 (0)69 – 860 07 22 – 610
+            </StyledContactInfo>
 
           </StyledContact>
         </StyledFooterContentWrapper>

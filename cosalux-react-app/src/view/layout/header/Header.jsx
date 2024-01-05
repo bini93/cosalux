@@ -4,6 +4,7 @@ import ContentWrapper from "../../components/ContentWrapper";
 import GroupBox from "../../components/GroupBox";
 import styled , { useTheme } from "styled-components";
 
+
 const StyledHeader= styled.header`
   width: 100%;
   display: flex;
