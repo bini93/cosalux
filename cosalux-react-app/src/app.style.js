@@ -11,6 +11,7 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 600;
     text-transform: uppercase;
     margin: 20px 0;
+    line-height: 1.3;
   }
   h3 {
     font-size: 27px;
@@ -22,6 +23,7 @@ export const GlobalStyle = createGlobalStyle`
   p {
     font-size: 14px;
     margin: 5px 0;
+    line-height: 20px;
   }
 `
 
