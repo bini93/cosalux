@@ -13,7 +13,8 @@ git clone https://github.com/bini93/cosalux.git
 Install dependencies:
 
 ```bash
-yarn install
+cd cosalux-react-app
+yarn
 ```
 
 ## Usage
