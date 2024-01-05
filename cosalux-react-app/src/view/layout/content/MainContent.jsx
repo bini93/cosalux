@@ -61,6 +61,7 @@ const StyledStepWrapper = styled.div`
 
 const StyledStep = styled.div`
   display: flex;
+  flex: 1 1 0px;
 `
 const StyledStepNumber = styled.div`
   font-size: 90px;
@@ -122,14 +123,14 @@ const MainContent = () => {
               <StyledStep>
                 <StyledStepNumber>2</StyledStepNumber>
                 <StyledStepInfoWrapper>
-                  <StyledStepInfo>QR -Code scannen oder Link klicken.</StyledStepInfo>
+                  <StyledStepInfo>WhatsApp öffnet sich</StyledStepInfo>
                   <StyledStepArrow></StyledStepArrow>
                 </StyledStepInfoWrapper>
               </StyledStep>
               <StyledStep>
                 <StyledStepNumber>3</StyledStepNumber>
                 <StyledStepInfoWrapper>
-                  <StyledStepInfo>QR -Code scannen oder Link klicken.</StyledStepInfo>
+                  <StyledStepInfo>Nachricht abschicken.</StyledStepInfo>
                   <StyledStepArrow></StyledStepArrow>
                 </StyledStepInfoWrapper>
               </StyledStep>

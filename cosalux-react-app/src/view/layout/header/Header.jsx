@@ -1,6 +1,8 @@
+import { QRCodeSVG } from 'qrcode.react';
+
 import ContentWrapper from "../../components/ContentWrapper";
 import GroupBox from "../../components/GroupBox";
-import styled from "styled-components";
+import styled , { useTheme } from "styled-components";
 
 const StyledHeader= styled.header`
   width: 100%;
@@ -53,11 +55,14 @@ const StyledInfoText = styled.p``
 
 const StyledInfoQRWrapper = styled.div`
   display: flex;
-  flex-wrap: wrap;
-  align-content: center;
+  flex-direction: column;
 `
 
-const StyledInfoQR = styled.div``
+const StyledInfoQR = styled.div`
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+`
 
 const StyledInfoButton = styled.a`
   padding: 10px 90px;
@@ -67,6 +72,7 @@ const StyledInfoButton = styled.a`
 
 
 const Header = () => {
+  const theme = useTheme();
   return (
     <StyledHeader>
 
@@ -96,7 +102,12 @@ const Header = () => {
 
               <StyledInfoQRWrapper>
                 <StyledInfoQR>
-                  QR-CODE
+                  <QRCodeSVG
+                    value="https://play.google.com/store/apps/details?id=com.whatsapp&pcampaignid=web_share"
+                    fgColor={theme.colors.secondary}
+                    bgColor={theme.colors.primary}
+                    size={90}
+                  />
                 </StyledInfoQR>
                 <StyledInfoButton>Button Text</StyledInfoButton>
               </StyledInfoQRWrapper>

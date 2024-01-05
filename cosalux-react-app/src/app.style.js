@@ -6,6 +6,10 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Arial';
     margin: 0;
   }
+  h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+  }
   h2 {
     font-size: 54px;
     font-weight: 600;
@@ -32,6 +36,8 @@ export const theme = {
     primary: '#000000',
     secondary: '#ffffff',
     tertiary: '#393939',
+
+    titleColor: '#393939',
 
     backgroundBlack: '#000000',
     backgroundWhite: '#ffffff',

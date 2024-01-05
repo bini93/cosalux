@@ -7,7 +7,6 @@ const StyledFooter = styled.footer`
   align-items: center;
   justify-content: center;
   height: 86px;
-  border-top: 1px solid red;
   font-size: 12px;
 
   color: ${props => props.theme.colors.tertiary};
